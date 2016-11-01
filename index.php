@@ -2,6 +2,8 @@
 <!--[if IE 9]><html class="ie9"><![endif]-->
 <!--[if gt IE 9]><!-->
 <html>
+
+
 <!--<![endif]-->
   <head>
     <title>Basic - PatternFly</title>
@@ -54,6 +56,7 @@
         </ul>
       </div>
     </nav>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
