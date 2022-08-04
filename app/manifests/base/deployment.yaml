@@ -5,7 +5,6 @@ metadata:
     alpha.image.policy.openshift.io/resolve-names: '*'
     app.openshift.io/vcs-ref: ""
     app.openshift.io/vcs-uri: https://github.com/masauve/bgdemo
-    deployment.kubernetes.io/revision: "2"
     image.openshift.io/triggers: '[{"from":{"kind":"ImageStreamTag","name":"bgdemo:latest","namespace":"secdemo"},"fieldPath":"spec.template.spec.containers[?(@.name==\"bgdemo\")].image","pause":"false"}]'
     openshift.io/generated-by: OpenShiftWebConsole
   labels:
