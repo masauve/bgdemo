@@ -7,5 +7,5 @@ metadata:
     openshift.io/requester: msauve@redhat.com
   labels:
     kubernetes.io/metadata.name: secdemo
-    openshift-pipelines.tekton.dev/namespace-reconcile-version: v1.7.2
+    openshift-pipelines.tekton.dev/namespace-reconcile-version: 1.7.2
   name: secdemo
