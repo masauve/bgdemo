@@ -15,7 +15,7 @@ metadata:
   name: bgdemo
   namespace: secdemo
 spec:
-  host: bgdemo-secdemo.apps.ocp.myocp.net
+  host: bgdemo-secdemo.apps.sno.myocp.net
   port:
     targetPort: 8080-tcp
   to:
